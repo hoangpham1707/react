@@ -1,0 +1,55 @@
+.products-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    height: 750px;
+    margin: 50px auto;
+}
+
+.product-item {
+    flex: 0 0 calc(50% - 20px);
+    width: 370px;
+    height: 650px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bg-img {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.link-git {
+    margin: 20px 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link a:hover {
+    color: #0056b3;
+}
+
+.desc {
+    margin: 20px 15px;
+    font-size: 1em;
+    line-height: 1.6;
+}
